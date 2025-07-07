@@ -1,36 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA", "DSA.csproj", "{AF53195F-531A-4C07-B2C7-1421E7387794}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array", "Array", "{89FB9626-E036-4F5A-AF84-2F8687A3FEA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAlgorithm", "..\Users\chuong.nguyen\OneDrive - Orient\SearchAlgorithm\SearchAlgorithm.csproj", "{35CE9DAF-E203-49C7-9DCA-EE0C0F209F33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array.ConsoleApp", "Array\Array.ConsoleApp\Array.ConsoleApp.csproj", "{BBF0FE84-EB49-4669-95B7-2B2225080547}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array", "Array", "{FD8108B3-4917-4B6B-BAD1-DE0595F6DC94}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{D831958E-5AF7-4418-8C92-4ED0924AD512}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{72711CAC-865C-4BB8-AB81-2510AC10A4E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search.ConsoleApp", "Search\Search.ConsoleApp\Search.ConsoleApp.csproj", "{F9B9F751-F083-45B1-B7C7-24084D6DC6D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AF53195F-531A-4C07-B2C7-1421E7387794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF53195F-531A-4C07-B2C7-1421E7387794}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF53195F-531A-4C07-B2C7-1421E7387794}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF53195F-531A-4C07-B2C7-1421E7387794}.Release|Any CPU.Build.0 = Release|Any CPU
-		{35CE9DAF-E203-49C7-9DCA-EE0C0F209F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{35CE9DAF-E203-49C7-9DCA-EE0C0F209F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{35CE9DAF-E203-49C7-9DCA-EE0C0F209F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{35CE9DAF-E203-49C7-9DCA-EE0C0F209F33}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBF0FE84-EB49-4669-95B7-2B2225080547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF0FE84-EB49-4669-95B7-2B2225080547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF0FE84-EB49-4669-95B7-2B2225080547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF0FE84-EB49-4669-95B7-2B2225080547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B9F751-F083-45B1-B7C7-24084D6DC6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B9F751-F083-45B1-B7C7-24084D6DC6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B9F751-F083-45B1-B7C7-24084D6DC6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B9F751-F083-45B1-B7C7-24084D6DC6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{AF53195F-531A-4C07-B2C7-1421E7387794} = {FD8108B3-4917-4B6B-BAD1-DE0595F6DC94}
-		{35CE9DAF-E203-49C7-9DCA-EE0C0F209F33} = {72711CAC-865C-4BB8-AB81-2510AC10A4E5}
+		{BBF0FE84-EB49-4669-95B7-2B2225080547} = {89FB9626-E036-4F5A-AF84-2F8687A3FEA2}
+		{F9B9F751-F083-45B1-B7C7-24084D6DC6D8} = {D831958E-5AF7-4418-8C92-4ED0924AD512}
 	EndGlobalSection
 EndGlobal
